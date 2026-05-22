@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astrolabe Portfolio Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --text: #111827;
+      --muted: #5f6673;
+      --card: #ffffff;
+      --link: #2563eb;
+      --border: #d9dde5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0d12;
+        --text: #f5f7fb;
+        --muted: #a3adbd;
+        --card: #151923;
+        --link: #60a5fa;
+        --border: #2b3240;
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 42px auto 64px;
+    }
+
+    header, section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 16px;
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-size: clamp(30px, 6vw, 44px);
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Astrolabe Portfolio Support</h1>
+      <p>For help with Astrolabe Portfolio, contact <a href="mailto:outian1004@gmail.com">outian1004@gmail.com</a>.</p>
+      <p>We usually need the app version, iOS version, device model, and a short description of what happened.</p>
+    </header>
+
+    <section>
+      <h2>Data And iCloud Sync</h2>
+      <ul>
+        <li>Your core portfolio, transaction, ledger, and recurring plan data is stored on your device.</li>
+        <li>When iCloud Auto Sync is enabled and you are signed in to iCloud, the app syncs through your private iCloud database.</li>
+        <li>If sync does not appear on another device, confirm that both devices use the same iCloud account and have iCloud enabled in iOS Settings.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Subscriptions</h2>
+      <ul>
+        <li>Subscriptions and free trials are managed by Apple through the App Store.</li>
+        <li>You can manage or cancel a subscription in iOS Settings under your Apple Account subscriptions.</li>
+        <li>If a purchase does not unlock the app immediately, restart the app and make sure you are signed in with the Apple Account used for the purchase.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>Read the <a href="./privacy.html">Privacy Policy</a> for details about local storage, iCloud sync, AI recognition, market data requests, and App Store subscription handling.</p>
+    </section>
+  </main>
+</body>
+</html>
