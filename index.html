@@ -1,95 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Astrolabe Portfolio</title>
-  <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f6f7f9;
-      --text: #111827;
-      --muted: #5f6673;
-      --card: #ffffff;
-      --link: #2563eb;
-      --border: #d9dde5;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0b0d12;
-        --text: #f5f7fb;
-        --muted: #a3adbd;
-        --card: #151923;
-        --link: #60a5fa;
-        --border: #2b3240;
-      }
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    main {
-      width: min(760px, calc(100% - 32px));
-      margin: 56px auto;
-    }
-
-    .panel {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 32px;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(32px, 7vw, 48px);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-
-    p {
-      color: var(--muted);
-      margin: 0 0 20px;
-    }
-
-    nav {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 28px;
-    }
-
-    a {
-      color: var(--link);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    nav a {
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 10px 14px;
-      background: color-mix(in srgb, var(--card), var(--bg) 35%);
-    }
-  </style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Allfolio — Your portfolio. Your records.</title>
+  <meta name="description" content="A personal investment ledger for iPhone. Track holdings, trades, dividends, and cash across accounts without a brokerage login. Optional private iCloud sync.">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="apple-itunes-app" content="app-id=6772176503, affiliate-data=pt=128935614&amp;ct=US_Web_202611&amp;mt=8">
+  <meta property="og:title" content="Allfolio — Your portfolio. Your records."><meta property="og:description" content="Holdings, trades, and cash in one clear ledger. Made for iPhone. No brokerage login required."><meta property="og:type" content="website"><meta property="og:url" content="https://ogerhsou.github.io/astrolabe-portfolio-support/"><meta property="og:image" content="https://ogerhsou.github.io/astrolabe-portfolio-support/marketing/social-card.png"><meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://ogerhsou.github.io/astrolabe-portfolio-support/"><link rel="icon" href="./marketing/app-icon.png"><link rel="stylesheet" href="./marketing/site.css"><script src="./marketing/demo.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Allfolio: Portfolio Tracker","applicationCategory":"FinanceApplication","operatingSystem":"iOS 17.0 or later","url":"https://ogerhsou.github.io/astrolabe-portfolio-support/","downloadUrl":"https://apps.apple.com/us/app/allfolio-portfolio-tracker/id6772176503","description":"A personal investment ledger for iPhone, with manual transaction recording, linked cash accounts, holdings, and optional private iCloud sync."}</script>
 </head>
 <body>
-  <main>
-    <section class="panel">
-      <h1>Astrolabe Portfolio</h1>
-      <p>Private portfolio tracking, bookkeeping, analysis, iCloud sync, and subscription access for iPhone.</p>
-      <p>Your core asset, transaction, and ledger records stay on your device and, when enabled, in your own private iCloud database.</p>
-      <nav aria-label="Astrolabe Portfolio links">
-        <a href="./support.html">Support</a>
-        <a href="./privacy.html">Privacy Policy</a>
-      </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="brand" href="./" aria-label="Allfolio home"><img src="./marketing/app-icon.png" width="36" height="36" alt=""><span>Allfolio<span class="brand-dot">.</span></span></a><nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#guides">Guides</a><a href="./support.html">Support</a><a class="nav-download" href="https://apps.apple.com/app/apple-store/id6772176503?pt=128935614&amp;ct=US_Web_202611&amp;mt=8">Get the app ↗</a></nav></header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>YOUR PERSONAL INVESTMENT LEDGER</p><h1 id="hero-title">Your portfolio.<br><span>Your records.</span></h1><p class="hero-description">Keep holdings, trades, and cash in one clear place. Made for people who like to keep their own records.</p><div class="hero-actions"><a class="button primary" href="https://apps.apple.com/app/apple-store/id6772176503?pt=128935614&amp;ct=US_Web_202611&amp;mt=8">Download on the App Store ↗</a><a class="button text-button" href="#how-it-works"><span class="play-mark" aria-hidden="true">▶</span>Try the sample ledger</a></div><p class="purchase-note">For iPhone · Subscription required<br>14-day free trial for eligible Apple Accounts.</p><div class="hero-proof"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3M6 10h12v11H6z"/></svg>No brokerage login</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>Your own transaction history</span></div></div>
+      <figure class="hero-visual"><div class="visual-orbit" aria-hidden="true"></div><div class="phone-frame"><img class="app-screen" src="./marketing/holdings.png" width="1284" height="2778" alt="Allfolio's Assets screen showing sample stock holdings, cash, and other assets in one ledger." fetchpriority="high"></div><figcaption>Allfolio on iPhone. Sample portfolio shown.</figcaption></figure>
     </section>
-  </main>
-</body>
-</html>
+    <section class="feature-strip wrap" aria-label="What you can track"><p>One ledger for the details that matter.</p><div><span>Holdings</span><span>Trades</span><span>Dividends</span><span>Cash</span><span>Net worth</span></div></section>
+    <section class="section wrap" id="how-it-works" aria-labelledby="demo-title">
+      <div class="section-heading"><p class="eyebrow">FOLLOW THE MONEY</p><h2 id="demo-title">Every trade has<br>a cash side.</h2><p>Record your trade and link a cash account. Allfolio updates your investment records and the linked cash balance together.</p></div>
+      <div class="demo" data-ledger-demo><div class="demo-topline"><span class="sample-tag">SAMPLE LEDGER</span><span class="demo-step" data-demo-step>Step 1 of 4</span></div><div class="demo-balances"><div><span class="balance-label">Cash</span><strong data-demo-cash>$10,000</strong><span class="balance-detail">Linked USD account</span></div><div><span class="balance-label">Holdings</span><strong data-demo-holdings>$0</strong><span class="balance-detail" data-demo-shares>0 sample shares</span></div><div><span class="balance-label">Total value</span><strong data-demo-total>$10,000</strong><span class="balance-detail">Cash + holdings</span></div></div><div class="demo-explanation" aria-live="polite" aria-atomic="true"><span class="demo-symbol" aria-hidden="true" data-demo-icon>01</span><div><h3 data-demo-title>Start with your cash balance.</h3><p data-demo-description>This sample ledger starts with $10,000 in cash. Record a purchase to see where the money goes.</p></div></div><ol class="demo-history" data-demo-history aria-label="Sample transaction history"><li><span>Opening cash balance</span><strong>+$10,000</strong></li></ol><div class="demo-controls"><button type="button" class="button primary" data-demo-next>Record a $1,000 purchase →</button><button type="button" class="reset-button" data-demo-reset>Reset example</button></div><p class="demo-disclosure">Illustrative workflow, not the app interface. Sample prices; fees omitted. This example stays in your browser.</p><noscript><p class="demo-disclosure">Buying 10 shares at $100 moves $1,000 from cash into holdings. Your cash becomes $9,000 and your holdings become $1,000. Enable JavaScript to step through the example.</p></noscript></div>
+    </section>
+    <section class="section tour-section" aria-labelledby="tour-title"><div class="wrap tour-layout"><div><p class="eyebrow">A QUICK LOOK</p><h2 id="tour-title">Your records,<br>with a clearer view.</h2><p>See holdings, bookkeeping, and portfolio analysis in this 30-second tour of Allfolio.</p><ul class="check-list"><li>Group assets across your accounts.</li><li>Record buys, sells, and dividends.</li><li>Review cost basis and portfolio P&amp;L.</li></ul></div><div class="tour-video"><video controls playsinline preload="none" poster="./marketing/tour-poster.png" width="1080" height="1920" aria-label="Thirty-second Allfolio product tour with sample data"><source src="./marketing/allfolio-tour.mp4" type="video/mp4"><track kind="captions" src="./marketing/allfolio-tour.vtt" srclang="en" label="English" default>Your browser does not support video. <a href="./marketing/allfolio-tour.mp4">Download the Allfolio tour.</a></video><p>Actual app screens. Sample portfolio. No audio.</p></div></div></section>
+    <section class="section wrap" aria-labelledby="features-title"><div class="section-heading"><p class="eyebrow">A PLACE FOR YOUR WHOLE PICTURE</p><h2 id="features-title">Built around<br>your own records.</h2></div><div class="feature-grid"><article><span class="feature-number">01</span><h3>More than one account.</h3><p>Organize stocks, ETFs, cash, and other assets across accounts. Choose a display currency for your overall view.</p></article><article><span class="feature-number">02</span><h3>Keep the history.</h3><p>Record and edit individual transactions. Review holdings, cost basis, and realized and unrealized P&amp;L.</p></article><article><span class="feature-number">03</span><h3>Keep the control.</h3><p>Core records are stored on your device. You can choose to sync them through your own private iCloud database.</p></article></div></section>
+    <section class="section guides-section wrap" id="guides" aria-labelledby="guides-title"><div class="section-heading horizontal"><div><p class="eyebrow">START WITH A REAL QUESTION</p><h2 id="guides-title">A little less<br>spreadsheet juggling.</h2></div><p>Practical guides to keeping investment records across accounts.</p></div><div class="guide-grid"><a class="guide-card" href="./guides/manual-portfolio-tracker.html"><span class="guide-topic">MULTIPLE ACCOUNTS · 4 MIN READ</span><h3>Track multiple brokerage accounts without linking them.</h3><p>A simple way to organize holdings and transactions in your own ledger.</p><span class="guide-arrow">Read the guide <span aria-hidden="true">↗</span></span></a><a class="guide-card" href="./guides/trades-and-cash.html"><span class="guide-topic">TRANSACTIONS · 4 MIN READ</span><h3>Keep your stock trades and cash balance in sync.</h3><p>Walk through a purchase, a dividend, and a sale without double-counting cash.</p><span class="guide-arrow">Read the guide <span aria-hidden="true">↗</span></span></a></div></section>
+    <section class="section wrap faq-section" aria-labelledby="faq-title"><div><p class="eyebrow">BEFORE YOU GET STARTED</p><h2 id="faq-title">A few useful<br>details.</h2></div><div class="faq-list"><details><summary>How do my transactions get into Allfolio?</summary><p>You record your assets and transactions yourself. Optional AI recognition can help turn a screenshot into transaction details for you to review. No brokerage login is required.</p></details><details><summary>Where are my records stored?</summary><p>Core asset, transaction, and ledger records are stored on your device, with optional sync through your own private iCloud database. Optional AI, market data, feedback, and consented usage analytics have separate data flows explained in our <a href="./privacy.html">privacy policy</a>.</p></details><details><summary>What does Allfolio cost?</summary><p>Allfolio is free to download. An active monthly or yearly subscription, or an eligible trial, is required to use the app. Eligible Apple Accounts can start a 14-day free trial. Current plans and prices are shown in the App Store and in the app. Trials renew as paid subscriptions unless canceled in your Apple Account settings.</p></details><details><summary>Which devices can I use?</summary><p>Allfolio is available on the App Store for iPhone running iOS 17 or later.</p></details><details><summary>Can I keep records in different currencies?</summary><p>Yes. Record assets and cash accounts in their own currencies, then choose a display currency for the combined view.</p></details></div></section>
+    <section class="closing wrap"><div><p class="eyebrow">YOUR NEXT CHAPTER, CLEARLY RECORDED</p><h2>Give your portfolio<br>a place to add up.</h2></div><div><a class="button primary" href="https://apps.apple.com/app/apple-store/id6772176503?pt=128935614&amp;ct=US_Web_202611&amp;mt=8">View Allfolio on the App Store ↗</a><p class="purchase-note">Subscription required. Free trial for eligible accounts.</p></div></section>
+  </main><footer class="site-footer wrap"><a class="brand" href="./"><img src="./marketing/app-icon.png" width="28" height="28" alt=""><span>Allfolio<span class="brand-dot">.</span></span></a><p>An independent investment ledger for iPhone.</p><nav aria-label="Footer navigation"><a href="./support.html">Support</a><a href="./privacy.html">Privacy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a></nav></footer>
+</body></html>
