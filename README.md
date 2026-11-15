@@ -11,7 +11,7 @@ The iPhone app requires a subscription. Eligible Apple Accounts can try 14 days;
 - **[Portfolio cash reconciliation calculator](https://ogerhsou.github.io/astrolabe-portfolio-support/tools/portfolio-cash-calculator.html)** — compare your opening cash, buys, sells, income, fees, and transfers with a recorded closing balance. Free, no account required; calculations stay in the page.
 - [Track multiple brokerage accounts without linking them](https://ogerhsou.github.io/astrolabe-portfolio-support/guides/manual-portfolio-tracker.html)
 - [Keep stock trades and cash records in sync](https://ogerhsou.github.io/astrolabe-portfolio-support/guides/trades-and-cash.html)
-- [30-second app tour](https://ogerhsou.github.io/astrolabe-portfolio-support/marketing/allfolio-tour.mp4) — actual app screens with sample data.
+- [Watch the app tour on YouTube](https://www.youtube.com/shorts/a_1XUYNGojI) — actual app screens with sample data. [Allfolio channel](https://www.youtube.com/@AllfolioLedger).
 
 ## Support and privacy
 
