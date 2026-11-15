@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Portfolio Cash Reconciliation Calculator — Allfolio</title>
+  <meta name="description" content="Check your investment account cash balance after buys, sells, dividends, deposits and fees. A free browser calculator. No account or brokerage login required.">
+  <link rel="canonical" href="https://ogerhsou.github.io/astrolabe-portfolio-support/tools/portfolio-cash-calculator.html">
+  <meta property="og:title" content="Does your portfolio cash balance add up?"><meta property="og:description" content="A free cash reconciliation calculator for your investment records. No account required. Calculations stay in your browser."><meta property="og:type" content="website"><meta property="og:url" content="https://ogerhsou.github.io/astrolabe-portfolio-support/tools/portfolio-cash-calculator.html"><meta property="og:image" content="https://ogerhsou.github.io/astrolabe-portfolio-support/marketing/social-card.png"><meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../marketing/app-icon.png"><link rel="stylesheet" href="../marketing/site.css"><link rel="stylesheet" href="../marketing/cash-calculator.css"><script src="../marketing/cash-calculator.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Allfolio Portfolio Cash Reconciliation Calculator","url":"https://ogerhsou.github.io/astrolabe-portfolio-support/tools/portfolio-cash-calculator.html","applicationCategory":"FinanceApplication","operatingSystem":"Any browser","isAccessibleForFree":true,"description":"A browser calculator for reconciling cash movements in one investment account, in one currency."}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="brand" href="../"><img src="../marketing/app-icon.png" width="36" height="36" alt=""><span>Allfolio<span class="brand-dot">.</span></span></a><nav aria-label="Main navigation"><a href="../#guides">Guides</a><a href="../support.html">Support</a><a class="nav-download" href="https://apps.apple.com/app/apple-store/id6772176503?pt=128935614&amp;ct=US_Web_CashTool_202611&amp;mt=8">Get the app ↗</a></nav></header>
+  <main id="main">
+    <header class="article-header cash-header"><a class="article-back" href="../">← Allfolio home</a><p class="eyebrow">FREE TOOL · NO ACCOUNT REQUIRED</p><h1>Does your cash<br>balance add up?</h1><p class="article-deck">Check the cash side of your investment records. Add the money in, subtract the money out, and compare with your recorded balance.</p><p class="calculator-privacy">Calculations stay in this page. Your inputs are not uploaded or saved.</p></header>
+    <div class="cash-tool wrap">
+      <form id="cash-form" class="cash-form" novalidate>
+        <noscript><p>This calculator needs JavaScript to run in your browser. Enable JavaScript to enter your numbers, or use the formula below.</p></noscript>
+        <fieldset disabled><legend>One account. One currency.</legend><p class="cash-hint">Use the same statement period and currency for every number. Enter each movement as a positive amount. Blank movement fields count as zero.</p>
+          <label for="opening">Opening cash balance <span>Can be negative</span></label><input id="opening" name="opening" inputmode="decimal" autocomplete="off" placeholder="10000" aria-describedby="amount-help" required>
+          <div class="cash-input-grid">
+            <div><label for="deposits">Deposits &amp; transfers in</label><input id="deposits" name="deposits" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+            <div><label for="withdrawals">Withdrawals &amp; transfers out</label><input id="withdrawals" name="withdrawals" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+            <div><label for="buys">Stock / fund purchases <span>Before separately entered fees</span></label><input id="buys" name="buys" inputmode="decimal" autocomplete="off" placeholder="1000"></div>
+            <div><label for="sells">Sale proceeds <span>Before separately entered fees</span></label><input id="sells" name="sells" inputmode="decimal" autocomplete="off" placeholder="440"></div>
+            <div><label for="income">Cash dividends &amp; interest <span>Cash actually received</span></label><input id="income" name="income" inputmode="decimal" autocomplete="off" placeholder="20"></div>
+            <div><label for="fees">Fees &amp; other cash charges <span>Not already included above</span></label><input id="fees" name="fees" inputmode="decimal" autocomplete="off" placeholder="0"></div>
+          </div>
+          <label for="recorded">Closing cash balance to check <span>Optional; can be negative</span></label><input id="recorded" name="recorded" inputmode="decimal" autocomplete="off" placeholder="9460">
+          <p id="amount-help" class="cash-hint">Use up to two decimal places, for example 1250.50. A negative balance represents cash owed; this calculator does not assess borrowing or buying power.</p>
+          <p id="cash-error" class="cash-error" role="alert" hidden></p>
+          <div class="cash-actions"><button class="button primary" type="submit">Check cash balance</button><button class="button secondary" id="sample" type="button">Use sample numbers</button><button class="button text-button" type="reset">Clear</button></div>
+        </fieldset>
+      </form>
+      <section id="cash-result" class="cash-result" aria-live="polite" aria-atomic="true"><p class="eyebrow">YOUR CASH CHECK</p><h2>Follow both sides<br>of every trade.</h2><p>Start with your opening cash balance, or load the sample: 10,000 opening cash, a 1,000 purchase, 440 in sale proceeds and a 20 dividend.</p><p class="cash-hint">This tool checks arithmetic from the entries you provide. It cannot detect an omitted or incorrect transaction on its own.</p></section>
+    </div>
+    <article class="article cash-explainer">
+      <h2>How cash reconciliation works.</h2>
+      <p><strong>Expected closing cash = opening cash + deposits + sale proceeds + cash income − withdrawals − purchases − cash charges.</strong></p>
+      <p>For the sample, 10,000 + 440 + 20 − 1,000 = <strong>9,460</strong>. If your recorded cash says 10,460, it is 1,000 higher than these entries explain. A missing purchase is one thing to check; it is not the only possible explanation.</p>
+      <h2>Keep the entries consistent.</h2>
+      <ul><li>Check one account and one currency at a time. Do not add USD and EUR amounts together.</li><li>Use one cash measure and date basis throughout. A settled-cash balance and a buying-power figure can differ. Match your statement’s treatment of unsettled trades.</li><li>Include fees once. If your purchase totals or sale proceeds already include them, do not enter those fees again.</li><li>Use dividends actually credited to cash. A reinvested dividend also has a corresponding purchase; include both if they appear as separate cash movements.</li><li>Price changes in your holdings do not directly change cash. Transfers between accounts change the cash in each account, even if your combined net worth stays the same.</li></ul>
+      <p>Walk through the <a href="../guides/trades-and-cash.html">purchase, dividend and sale example</a>, or learn <a href="../guides/manual-portfolio-tracker.html">how to organize multiple brokerage accounts</a>.</p>
+      <div class="article-cta"><h3>Keep the cash side connected on iPhone.</h3><p>Allfolio lets you record investment transactions with a linked cash account, so your holdings and cash records update together. No brokerage login required.</p><a class="button primary" href="https://apps.apple.com/app/apple-store/id6772176503?pt=128935614&amp;ct=US_Web_CashTool_202611&amp;mt=8">View Allfolio on the App Store ↗</a><p class="purchase-note">This web calculator is free. The Allfolio app requires a subscription; eligible Apple Accounts can try 14 days.</p></div>
+      <p><button class="button secondary" id="share-tool" type="button">Copy this tool’s link</button> <span id="share-status" role="status"></span></p><p class="article-footnote">Sharing copies only the public page URL, without your numbers. The calculator is a recordkeeping aid; compare the underlying entries with your account statement.</p>
+    </article>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="../"><span>Allfolio.</span></a><p>Your portfolio. Your records.</p><nav aria-label="Footer navigation"><a href="../support.html">Support</a><a href="../privacy.html">Privacy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a></nav></footer>
+</body>
+</html>
